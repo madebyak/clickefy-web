@@ -11,6 +11,7 @@ import FeatureGrid from '@/components/FeatureGrid';
 import Privacy from '@/components/Privacy';
 import Testimonials from '@/components/Testimonials';
 import Pricing from '@/components/Pricing';
+import DownloadSection from '@/components/DownloadSection';
 import ParallaxFooter from '@/components/ParallaxFooter';
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <Privacy />
       <Testimonials />
       <Pricing />
+      <DownloadSection />
       <ParallaxFooter />
     </main>
   );

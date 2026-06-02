@@ -71,7 +71,7 @@ export default function Hero() {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="#download"
+              href="/#download"
               className="inline-flex items-center gap-2.5 h-[52px] px-[22px] rounded-full text-[15px] font-medium bg-violet text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.18)] hover:bg-violet-soft transition-colors"
             >
               {hero.ctaPrimary}

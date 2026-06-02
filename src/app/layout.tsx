@@ -1,11 +1,8 @@
-import type { Metadata } from "next";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
+import { rootMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Clickefy.Ai — AI product studio for brands",
-  description: "Turn one product photo into studio-grade hero shots, lookbooks, and scroll-stopping social video.",
-};
+export const metadata = rootMetadata;
 
 export default function RootLayout({
   children,

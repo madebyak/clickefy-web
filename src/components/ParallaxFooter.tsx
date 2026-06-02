@@ -79,12 +79,12 @@ export default function ParallaxFooter() {
               {finalCta.subtitle}
             </div>
             <div className="mt-10 flex flex-wrap justify-center gap-3">
-              <a
-                href="#download"
+              <Link
+                href="/#download"
                 className="inline-flex items-center gap-2.5 h-[56px] px-8 rounded-full text-[16px] font-medium bg-violet text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.18)] hover:bg-violet-soft transition-colors"
               >
                 {finalCta.ctaPrimary}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

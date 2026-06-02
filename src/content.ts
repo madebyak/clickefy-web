@@ -10,10 +10,11 @@ export const nav = {
   logo: "Clickefy",
   logoAccent: ".Ai",
   links: [
-    { label: "About", href: "#" },
-    { label: "Pricing", href: "#pricing" },
+    { label: "Pricing", href: "/#pricing" },
+    { label: "FAQ", href: "/faq" },
   ],
   cta: "Download app",
+  ctaHref: "/#download",
 };
 
 // ─── Hero ─────────────────────────────────────────────────────
@@ -403,6 +404,50 @@ export const finalCta = {
   ctaSecondary: "Browse templates",
 };
 
+// ─── FAQ ──────────────────────────────────────────────────────
+export const faqItems = [
+  {
+    q: "How is this different from a generic AI image tool?",
+    a: "Clickefy is a templated product studio, not a prompt box. Every template is tuned by category for light, surface, and pacing — and the engine routes each job to the right underlying model so you don't have to know one from another.",
+  },
+  {
+    q: "Do I keep the rights to what I generate?",
+    a: "Yes. Full commercial rights to every image and clip. No watermarks, no royalty splits, no exclusivity claims on your imagery.",
+  },
+  {
+    q: "Are my uploads used to train your models?",
+    a: "No. Uploads aren't used to train public models. Your product photos and references stay in your project.",
+  },
+  {
+    q: "How long does a generation take?",
+    a: "Stills land in 20–25 seconds. Motion clips land in 30–40 seconds. Render queue is prioritized for Pro tiers.",
+  },
+  {
+    q: "What resolutions can I export at?",
+    a: "Free exports at 1080p. Pro tiers export at up to 4K for stills and 1080p for motion, with platform-specific presets for every major surface.",
+  },
+  {
+    q: "Can I match a moodboard or past campaign?",
+    a: "Yes. Drop up to five references and the engine will read palette, lighting, and styling cues — without altering the product itself.",
+  },
+  {
+    q: "Is there a desktop version?",
+    a: "Clickefy is mobile-first today — iOS and Android. A desktop companion for projects and exports is on the roadmap for late 2026.",
+  },
+  {
+    q: "What if I cancel?",
+    a: "You keep every export already in your library. Saved templates and projects stay readable, and you can re-upgrade any time without losing them.",
+  },
+] as const;
+
+// ─── Download (app stores) ────────────────────────────────────
+export const download = {
+  heading: "Download Clickefy",
+  subtitle: "Available on iOS and Android. Free to start — no card required.",
+  appStoreLabel: "Download on the App Store",
+  playStoreLabel: "Get it on Google Play",
+};
+
 // ─── Footer ───────────────────────────────────────────────────
 export const footer = {
   tagline:
@@ -412,24 +457,26 @@ export const footer = {
     {
       title: "Product",
       links: [
-        { label: "About Us", href: "#" },
         { label: "Pricing", href: "/#pricing" },
+        { label: "Templates", href: "/#templates" },
       ],
     },
     {
       title: "Resources",
       links: [
-        { label: "Help Center", href: "#" },
         { label: "FAQ", href: "/faq" },
+        { label: "Legal", href: "/legal" },
       ],
     },
     {
       title: "Legal",
       links: [
-        { label: "Privacy", href: "#" },
-        { label: "Terms", href: "#" },
-        { label: "Cookie Policy", href: "#" },
-        { label: "Security", href: "#" },
+        { label: "Privacy Policy", href: "/privacy" },
+        { label: "Delete account & data", href: "/account-deletion" },
+        { label: "Terms of Service", href: "/legal/terms" },
+        { label: "AI Disclosure", href: "/legal/ai-disclosure" },
+        { label: "Content Policy", href: "/legal/content-policy" },
+        { label: "Copyright & DMCA", href: "/legal/dmca" },
       ],
     },
   ],
